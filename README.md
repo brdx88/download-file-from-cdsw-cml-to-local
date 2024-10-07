@@ -1,6 +1,9 @@
 # CDSW/CML File Downloader to Local using Selenium Automatically
 This project demonstrates an automated approach to downloading files from a cdsw/cml (Cloudera Machine Learning/Cloudera Data Science Workbench) interface using Python and Selenium. The script logs into a cdsw/cml environment, navigates through project folders, sorts files by modification date, and downloads the most recent file using automated interactions.
 
+## Problems
+Imagine the process of manually downloading monitoring reports from CDSW/CML on a weekly basis is time-consuming and tedious. With over 10 files to download each week, the repetitive task of navigating through the project directories, sorting the files, and manually clicking download is both inefficient and error-prone. This problem is compounded by the fact that the files are buried within the project directory structure, requiring several clicks to access and sort the correct files. Automating this process would save significant time and reduce manual errors.
+
 ## Features
 - **Automated Login**: Automatically logs into the cdsw/cml platform using provided credentials.
 - **Folder Navigation**: Navigates through the cdsw/cml interface to locate the project and desired folder.
