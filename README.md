@@ -24,7 +24,7 @@ pip install selenium webdriver-manager pyautogui
 ## Setup Instructions
 1. Clone the Repository:
    ``` bash
-   git clone https://github.com/your-username/cdsw/cml-file-downloader.git
+   git clone https://github.com/brdx88/cdsw/cml-file-downloader.git
    ```
 2. Configure the Download Directory and Credentials: Update the following variables in the script:
     - `download_dir`: Path to the folder where files will be downloaded.
